@@ -1,0 +1,1036 @@
+2015-02-21 13:09:24,075:INFO:flask_appbuilder.security.manager:Inserted Role for public access Admin
+2015-02-21 13:09:24,076:INFO:flask_appbuilder.security.manager:Inserted Role for public access Public
+2015-02-21 13:09:24,079:INFO:flask_appbuilder.base:Registering class IndexView
+2015-02-21 13:09:24,082:INFO:flask_appbuilder.base:Registering class UtilView
+2015-02-21 13:09:24,084:INFO:flask_appbuilder.base:Registering class LocaleView
+2015-02-21 13:09:24,087:INFO:flask_appbuilder.base:Registering class ResetPasswordView
+2015-02-21 13:09:24,095:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView
+2015-02-21 13:09:24,101:INFO:flask_appbuilder.base:Registering class AuthDBView
+2015-02-21 13:09:24,106:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu Security.List Users
+2015-02-21 13:09:24,130:INFO:flask_appbuilder.base:Registering class RoleModelView on menu Security.List Roles
+2015-02-21 13:09:24,148:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu Security.User's Statistics
+2015-02-21 13:09:24,163:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Security.Base Permissions
+2015-02-21 13:09:24,180:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Security.Views/Menus
+2015-02-21 13:09:24,196:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Security.Permission on Views/Menus
+2015-02-21 13:09:24,266:INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2015-02-21 13:09:24,267:INFO:werkzeug: * Restarting with stat
+2015-02-21 13:09:24,578:INFO:flask_appbuilder.security.manager:Inserted Role for public access Admin
+2015-02-21 13:09:24,579:INFO:flask_appbuilder.security.manager:Inserted Role for public access Public
+2015-02-21 13:09:24,582:INFO:flask_appbuilder.base:Registering class IndexView
+2015-02-21 13:09:24,585:INFO:flask_appbuilder.base:Registering class UtilView
+2015-02-21 13:09:24,587:INFO:flask_appbuilder.base:Registering class LocaleView
+2015-02-21 13:09:24,589:INFO:flask_appbuilder.base:Registering class ResetPasswordView
+2015-02-21 13:09:24,598:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView
+2015-02-21 13:09:24,604:INFO:flask_appbuilder.base:Registering class AuthDBView
+2015-02-21 13:09:24,608:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu Security.List Users
+2015-02-21 13:09:24,631:INFO:flask_appbuilder.base:Registering class RoleModelView on menu Security.List Roles
+2015-02-21 13:09:24,649:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu Security.User's Statistics
+2015-02-21 13:09:24,664:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Security.Base Permissions
+2015-02-21 13:09:24,680:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Security.Views/Menus
+2015-02-21 13:09:24,696:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Security.Permission on Views/Menus
+2015-02-21 13:09:27,449:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET / HTTP/1.1" 200 -
+2015-02-21 13:09:27,621:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,625:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,630:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/css/themes/bootstrap-theme.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,635:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/datepicker/bootstrap-datepicker.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,639:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/select2/select2.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,644:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,649:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/css/ab.css HTTP/1.1" 304 -
+2015-02-21 13:09:27,654:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,659:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,664:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,668:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,673:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/select2/select2.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,678:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/js/ab.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,682:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/datepicker/bootstrap-datepicker.js HTTP/1.1" 304 -
+2015-02-21 13:09:27,772:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/fonts/fontawesome-webfont.woff?v=4.1.0 HTTP/1.1" 304 -
+2015-02-21 13:09:27,777:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:09:27] "GET /static/appbuilder/img/flags/flags16.png HTTP/1.1" 304 -
+2015-02-21 13:09:57,746:INFO:werkzeug: * Detected change in '/root/esa/app/__init__.py', reloading
+2015-02-21 13:09:57,782:INFO:werkzeug: * Restarting with stat
+2015-02-21 13:09:58,488:INFO:flask_appbuilder.security.manager:Inserted Role for public access Admin
+2015-02-21 13:09:58,491:INFO:flask_appbuilder.security.manager:Inserted Role for public access Public
+2015-02-21 13:09:58,496:INFO:flask_appbuilder.base:Registering class IndexView
+2015-02-21 13:09:58,502:INFO:flask_appbuilder.base:Registering class UtilView
+2015-02-21 13:09:58,507:INFO:flask_appbuilder.base:Registering class LocaleView
+2015-02-21 13:09:58,512:INFO:flask_appbuilder.base:Registering class ResetPasswordView
+2015-02-21 13:09:58,530:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView
+2015-02-21 13:09:58,541:INFO:flask_appbuilder.base:Registering class AuthDBView
+2015-02-21 13:09:58,551:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu Security.List Users
+2015-02-21 13:09:58,602:INFO:flask_appbuilder.base:Registering class RoleModelView on menu Security.List Roles
+2015-02-21 13:09:58,640:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu Security.User's Statistics
+2015-02-21 13:09:58,673:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Security.Base Permissions
+2015-02-21 13:09:58,708:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Security.Views/Menus
+2015-02-21 13:09:58,742:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Security.Permission on Views/Menus
+2015-02-21 13:10:07,904:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:07] "GET /hello HTTP/1.1" 200 -
+2015-02-21 13:10:08,126:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET / HTTP/1.1" 200 -
+2015-02-21 13:10:08,271:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/css/themes/bootstrap-theme.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,277:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,283:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/datepicker/bootstrap-datepicker.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,288:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,293:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/select2/select2.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,298:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,320:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/css/ab.css HTTP/1.1" 304 -
+2015-02-21 13:10:08,326:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,332:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,339:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,344:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,350:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/datepicker/bootstrap-datepicker.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,354:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/select2/select2.js HTTP/1.1" 304 -
+2015-02-21 13:10:08,360:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /hello HTTP/1.1" 200 -
+2015-02-21 13:10:08,365:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:08] "GET /static/appbuilder/js/ab.js HTTP/1.1" 304 -
+/usr/local/lib/python2.7/dist-packages/flask_appbuilder/fields.py:98: UserWarning: allow_blank=True does not do anything for QuerySelectMultipleField.
+  warnings.warn('allow_blank=True does not do anything for QuerySelectMultipleField.')
+2015-02-21 13:10:15,596:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:15] "GET /users/list/ HTTP/1.1" 200 -
+2015-02-21 13:10:30,087:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:30] "GET /users/edit/2 HTTP/1.1" 200 -
+2015-02-21 13:10:36,054:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:36] "POST /users/edit/2 HTTP/1.1" 302 -
+2015-02-21 13:10:36,260:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:36] "GET /users/list/ HTTP/1.1" 200 -
+2015-02-21 13:10:41,472:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:41] "GET /users/edit/2 HTTP/1.1" 200 -
+2015-02-21 13:10:44,147:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:44] "POST /users/edit/2 HTTP/1.1" 302 -
+2015-02-21 13:10:44,329:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:44] "GET /users/list/ HTTP/1.1" 200 -
+2015-02-21 13:10:46,468:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:46] "GET / HTTP/1.1" 200 -
+2015-02-21 13:10:51,654:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:51] "GET /users/list/ HTTP/1.1" 200 -
+2015-02-21 13:10:58,367:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:58] "GET /logout/ HTTP/1.1" 302 -
+2015-02-21 13:10:58,410:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:10:58] "GET / HTTP/1.1" 200 -
+2015-02-21 13:11:00,706:WARNING:flask_appbuilder.security.decorators:Access is Denied for: can_list on: UserDBModelView
+2015-02-21 13:11:00,711:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:00] "GET /users/list/ HTTP/1.1" 302 -
+2015-02-21 13:11:00,774:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:00] "GET /login/ HTTP/1.1" 200 -
+2015-02-21 13:11:07,497:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:07] "GET /login/ HTTP/1.1" 200 -
+2015-02-21 13:11:15,394:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:15] "POST /login/ HTTP/1.1" 302 -
+2015-02-21 13:11:15,468:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:15] "GET / HTTP/1.1" 200 -
+2015-02-21 13:11:19,229:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:19] "GET /login/ HTTP/1.1" 302 -
+2015-02-21 13:11:19,302:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:19] "GET / HTTP/1.1" 200 -
+2015-02-21 13:11:23,690:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:23] "GET /permissionviews/list/ HTTP/1.1" 200 -
+2015-02-21 13:11:29,298:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:29] "GET /roles/list/ HTTP/1.1" 200 -
+2015-02-21 13:11:31,599:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:31] "GET /roles/add HTTP/1.1" 200 -
+2015-02-21 13:11:37,411:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:37] "GET /back HTTP/1.1" 302 -
+2015-02-21 13:11:37,529:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:37] "GET /roles/list/ HTTP/1.1" 200 -
+2015-02-21 13:11:42,108:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:11:42] "GET / HTTP/1.1" 200 -
+2015-02-21 13:16:59,690:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:16:59] "GET / HTTP/1.1" 200 -
+2015-02-21 13:17:00,337:INFO:werkzeug:137.222.114.246 - - [21/Feb/2015 13:17:00] "GET /favicon.ico HTTP/1.1" 404 -
+2015-02-21 13:17:36,027:INFO:werkzeug:173.252.110.116 - - [21/Feb/2015 13:17:36] "GET / HTTP/1.1" 200 -
+2015-02-21 14:10:42,441:INFO:werkzeug:178.116.69.154 - - [21/Feb/2015 14:10:42] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 15:26:59,728:INFO:werkzeug:96.226.199.24 - - [21/Feb/2015 15:26:59] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 16:24:35,676:INFO:werkzeug:213.208.182.246 - - [21/Feb/2015 16:24:35] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 16:29:20,397:INFO:werkzeug:89.24.126.107 - - [21/Feb/2015 16:29:20] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 17:51:26,619:INFO:werkzeug:218.161.1.86 - - [21/Feb/2015 17:51:26] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 20:36:43,620:INFO:werkzeug:84.159.209.53 - - [21/Feb/2015 20:36:43] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 20:40:16,668:INFO:werkzeug:80.122.233.253 - - [21/Feb/2015 20:40:16] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 21:29:10,055:INFO:werkzeug:182.254.208.113 - - [21/Feb/2015 21:29:10] "GET http://www.mafengwo.com/ HTTP/1.1" 200 -
+2015-02-21 21:45:13,656:INFO:werkzeug:91.238.134.75 - - [21/Feb/2015 21:45:13] "GET http://pl.wikipedia.org/wiki/Special:Search?search=&go=Go HTTP/1.1" 404 -
+2015-02-21 22:22:08,315:INFO:werkzeug:220.135.142.216 - - [21/Feb/2015 22:22:08] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-21 23:36:20,130:INFO:werkzeug:188.138.17.205 - - [21/Feb/2015 23:36:20] "GET / HTTP/1.1" 200 -
+2015-02-21 23:36:20,179:INFO:werkzeug:188.138.17.205 - - [21/Feb/2015 23:36:20] "GET /robots.txt HTTP/1.1" 404 -
+2015-02-21 23:36:50,933:INFO:werkzeug:188.138.17.205 - - [21/Feb/2015 23:36:50] "GET / HTTP/1.1" 200 -
+2015-02-21 23:36:51,024:INFO:werkzeug:188.138.17.205 - - [21/Feb/2015 23:36:51] "GET /robots.txt HTTP/1.1" 404 -
+2015-02-22 00:52:16,961:INFO:werkzeug:121.138.82.30 - - [22/Feb/2015 00:52:16] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-22 02:24:10,202:INFO:werkzeug:221.226.3.66 - - [22/Feb/2015 02:24:10] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+2015-02-22 05:35:51,690:INFO:werkzeug:61.240.144.66 - - [22/Feb/2015 05:35:51] "GET / HTTP/1.0" 200 -
+2015-02-22 06:17:02,351:INFO:werkzeug:149.129.21.202 - - [22/Feb/2015 06:17:02] "GET /tmUnblock.cgi HTTP/1.1" 404 -
+2015-02-22 08:20:12,674:INFO:werkzeug: * Detected change in '/root/esa/app/__init__.py', reloading
+2015-02-22 08:20:12,796:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:13,425:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:13,761:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:14,043:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:14,510:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:14,790:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:15,071:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:15,356:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:15,812:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:16,296:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:16,881:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:17,242:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:17,523:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:18,016:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:18,607:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:19,080:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:19,371:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:19,654:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:19,944:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:20,432:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:20,766:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:21,045:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:21,361:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:21,714:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:21,989:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:22,271:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:22,552:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:22,830:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:23,113:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:23,399:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:23,687:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:23,967:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:24,247:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:24,871:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:25,520:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:26,069:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:26,345:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:26,621:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:26,898:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:27,175:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:27,461:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:27,743:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:28,025:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:28,306:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:28,592:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:28,869:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:29,351:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:29,725:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:30,003:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:30,278:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:30,561:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:30,839:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:31,121:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:31,403:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:31,684:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:31,986:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:32,283:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:32,572:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:32,856:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:33,135:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:33,415:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:33,699:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:34,045:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:34,585:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:35,169:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:35,751:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:36,179:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:36,456:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:36,731:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:37,053:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:37,589:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:37,872:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:38,159:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:38,445:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:38,730:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:39,016:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:39,299:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:39,602:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:39,900:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:40,374:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:40,874:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:41,477:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:42,001:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:42,294:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:42,649:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:42,933:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:43,217:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:43,509:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:43,880:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:44,179:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:44,466:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:44,748:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:45,160:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:45,562:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:45,844:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:46,133:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:46,417:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:46,706:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:46,993:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:47,278:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:47,561:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:47,839:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:48,119:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:48,399:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:48,680:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:48,960:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:49,240:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:49,521:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:49,801:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:50,143:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:50,449:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:50,733:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:51,206:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:51,783:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:52,200:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:52,480:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:52,764:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:53,070:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:53,645:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:54,098:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:54,375:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:54,650:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:54,932:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:55,211:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:55,496:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:56,038:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:56,531:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:57,085:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:57,367:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:57,649:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:57,937:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:58,223:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:58,512:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:58,800:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:59,089:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:59,376:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:59,665:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:20:59,985:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:00,270:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:00,555:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:00,837:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:01,124:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:01,407:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:01,752:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:02,044:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:02,324:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:02,609:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:02,891:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:03,175:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:03,454:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:03,983:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:04,540:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:04,823:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:05,100:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:05,378:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:05,656:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:06,100:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:06,611:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:06,890:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:07,488:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:07,821:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:08,165:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:08,453:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:08,745:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:09,032:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:09,371:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:09,771:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:10,290:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:10,800:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:11,205:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:11,821:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:12,401:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:12,977:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:13,575:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:14,201:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:14,738:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:15,161:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:15,442:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:15,737:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:16,148:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:17,061:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:17,341:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:17,617:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:17,893:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:18,171:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:18,444:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:18,722:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:19,000:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:19,566:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:20,166:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:20,623:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:20,896:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:21,186:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:21,479:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:21,772:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:22,065:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:22,350:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:22,642:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:22,921:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:23,194:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:23,469:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:23,748:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:24,024:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:24,296:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:24,574:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:25,488:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+Was unable to import app Error: 
+2015-02-22 08:21:26,320:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:26,776:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:27,290:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:27,695:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:27,974:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:28,337:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:28,611:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:28,936:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:29,460:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:30,040:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:30,317:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:30,593:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:30,870:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:31,156:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:31,431:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:31,708:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:31,984:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:32,277:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:32,557:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:32,836:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:33,116:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:33,395:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:33,669:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:33,990:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:34,516:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:34,802:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:35,074:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:35,349:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:35,630:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:35,949:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:36,464:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:36,777:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:37,053:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:37,334:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:37,616:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:37,900:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:38,183:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:38,466:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:38,748:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:39,025:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:39,308:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:39,588:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:39,873:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:40,155:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:40,435:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:40,716:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:40,995:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:41,274:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:41,560:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:41,840:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:42,119:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:42,395:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:42,678:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:42,955:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:43,235:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:43,518:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:43,798:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:44,081:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:44,364:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:44,645:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:44,933:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:45,220:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:45,507:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:45,800:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:46,119:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:46,622:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:47,019:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:47,576:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:47,859:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:48,141:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:48,421:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:48,735:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:49,030:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:49,313:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:49,595:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:49,930:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:50,209:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:50,482:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:50,756:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:51,029:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:51,307:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:51,603:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:52,032:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:52,560:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:53,107:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:53,608:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:53,889:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:54,328:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:54,725:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:55,010:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:55,297:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:55,628:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:55,932:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:56,343:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:56,624:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:56,908:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:57,417:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:57,999:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:58,361:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:58,972:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:59,434:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:21:59,742:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:00,019:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:00,296:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:00,575:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:00,940:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:01,257:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:01,536:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:01,815:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:02,191:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:02,721:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:03,280:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:03,682:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:03,961:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:04,250:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:04,534:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:04,822:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:05,109:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:05,394:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:05,677:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:05,960:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:06,244:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:06,530:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:06,811:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:07,092:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:07,374:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:07,677:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:07,962:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:08,384:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:08,969:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:09,543:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:09,822:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:10,104:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:10,385:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:10,771:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:11,063:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:11,348:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:11,664:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:11,947:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:12,226:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:12,506:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:12,800:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:13,089:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:13,379:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:13,666:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:13,946:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:14,435:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:14,768:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:15,076:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:15,687:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:16,148:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:16,430:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:17,086:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:17,604:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:17,880:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:18,197:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:18,658:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:18,960:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:19,273:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:19,590:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:19,995:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:20,549:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:20,833:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:21,111:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:21,385:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:21,660:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:21,938:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:22,221:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:22,503:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:22,938:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:23,440:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:24,020:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:24,572:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:24,891:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:25,174:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:25,456:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:25,734:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:26,017:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:26,298:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:26,580:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:26,863:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:27,140:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:27,416:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:27,691:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:27,970:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:28,252:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:28,531:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:28,808:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:29,086:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:29,368:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:29,708:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:29,986:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:30,261:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:30,537:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:30,815:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:31,096:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:31,375:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:31,658:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:31,938:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:32,216:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:32,499:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:32,781:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:33,162:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:33,445:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:33,720:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:33,997:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:34,277:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:34,557:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:34,845:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:35,126:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:35,404:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:35,684:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:35,962:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:36,452:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:37,026:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:37,602:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:38,106:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:38,615:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:39,187:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:39,618:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:39,889:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:40,384:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:40,779:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:41,301:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:41,701:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:41,985:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:42,258:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:42,533:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:42,812:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:43,313:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:43,756:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:44,088:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:44,521:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:45,085:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:45,391:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:45,666:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:45,937:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:46,212:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:46,708:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:47,330:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:47,715:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:47,986:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:48,261:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:48,539:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:48,945:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:49,455:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
+2015-02-22 08:22:49,787:INFO:werkzeug: * Restarting with stat
+Was unable to import app Error: 
